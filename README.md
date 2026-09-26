@@ -4,19 +4,33 @@ Public report collection and reading inbox for Japanese economic, policy, resear
 
 > Status: requirements and architecture definition in progress.
 
-## Project principles
+## Product direction
 
 - GitHub-first operation: repository, Actions, Pages, Issues, and Pull Requests.
-- No AI classification or summarization in the core product.
-- Prefer RSS/Atom and other low-maintenance sources over site-specific scraping.
+- Feed-first ingestion: RSS/Atom before source-specific scraping.
+- No AI classification or summarization in the v1 core.
+- Public browsing with owner-only synchronized read/bookmark/hide state.
 - Public repository: never commit personal information, credentials, tokens, or confidential data.
-- Design before implementation: feasibility gates must be closed before feature coding starts.
+- Design before implementation: feasibility gates close before dependent feature coding.
 
-## Documentation
+## Canonical documentation
 
-The canonical project documentation will live under `docs/`.  
-Requirements and architecture are being prepared in a design PR before implementation begins.
+Start at **[docs/README.md](docs/README.md)**.
+
+Key documents:
+
+- [Product requirements](docs/requirements.md)
+- [Basic architecture](docs/architecture.md)
+- [Data model](docs/data-model.md)
+- [Ingestion design](docs/ingestion.md)
+- [Authentication and state sync](docs/auth-and-sync.md)
+- [Security and privacy](docs/security-and-privacy.md)
+- [Test strategy](docs/testing.md)
+- [Roadmap and delivery gates](docs/roadmap.md)
+- [Architecture Decision Records](docs/adr/README.md)
+
+AI/development agents should read [AGENTS.md](AGENTS.md) before changing behavior.
 
 ## Security
 
-Never commit secrets. Report accidental exposure immediately and rotate the affected credential.
+This repository is public. Never commit secrets, credentials, personal data, private URLs, local machine paths, or confidential content. See [SECURITY.md](SECURITY.md).
