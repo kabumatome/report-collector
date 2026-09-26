@@ -13,6 +13,7 @@ This directory is the canonical source of product and architecture truth.
 | [auth-and-sync.md](auth-and-sync.md) | GitHub-only authentication/state synchronization design and feasibility gate |
 | [security-and-privacy.md](security-and-privacy.md) | Public-repository safety, secrets, data exposure rules |
 | [testing.md](testing.md) | Test pyramid, fixtures, contracts, acceptance tests |
+| [operations.md](operations.md) | Scheduling, freshness, recovery, and GitHub Actions operational risks |
 | [roadmap.md](roadmap.md) | Delivery phases, gates, and definition of v1 |
 | [adr/README.md](adr/README.md) | Architecture Decision Records |
 
