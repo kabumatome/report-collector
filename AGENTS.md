@@ -24,6 +24,7 @@ This repository is public. Treat every committed byte as internet-visible.
 - Authentication/state sync: `docs/auth-and-sync.md`
 - Security/privacy: `docs/security-and-privacy.md`
 - Test strategy: `docs/testing.md`
+- Operations/reliability: `docs/operations.md`
 - Roadmap/gates: `docs/roadmap.md`
 - Architecture decisions: `docs/adr/`
 
