@@ -1,0 +1,27 @@
+name: Bug
+description: Defect report without private data
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "This repository is public. Do not paste credentials, tokens, private URLs, or personal information."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Use synthetic/public-safe data only.
+    validations:
+      required: true
